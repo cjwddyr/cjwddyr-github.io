@@ -14,7 +14,7 @@ app.config(['$routeProvider', function($routeProvice){
             controller: 'bookController'
         })
         .when('/about_me', {
-            templateUrl: './assetstpl/about_me.html',
+            templateUrl: './assets/tpl/about_me.html',
             controller: ''
         })
         .when('/book_list/:id',{
