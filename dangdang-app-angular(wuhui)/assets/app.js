@@ -17,6 +17,10 @@ app.config(['$routeProvider', function($routeProvice){
             templateUrl: '..tpl/about_me.html',
             controller: ''
         })
+        .when('/book_list/:id',{
+            templateUrl:'./assets/tpl/book_list.html',
+            controller:'bookListController'
+        })
         .otherwise({
             redirectTo: '/'
         })
