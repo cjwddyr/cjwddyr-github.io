@@ -2,19 +2,19 @@ var app = angular.module('app', ['ngRoute']);
 app.config(['$routeProvider', function($routeProvice){
     $routeProvice
         .when('/', {
-            templateUrl: '../tpl/index.html',
+            templateUrl: './assets/tpl/index.html',
             controller: ''
         })
         .when('/blog', {
-            templateUrl: '../tpl/blog.html',
+            templateUrl: './assets/tpl/blog.html',
             controller: ''
         })
         .when('/book', {
-            templateUrl: '../tpl/book.html',
+            templateUrl: './assets/tpl/book.html',
             controller: 'bookController'
         })
         .when('/about_me', {
-            templateUrl: '..tpl/about_me.html',
+            templateUrl: './assetstpl/about_me.html',
             controller: ''
         })
         .when('/book_list/:id',{
