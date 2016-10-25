@@ -85,17 +85,17 @@ body{
 
 }
 .info .col i{
-	padding-top: 60px;
+	padding-top: 30px;
 
 }
 .col-1{
 	/*background-color:#000;*/
-	width:30%;
+	width:40%;
 	display:inline-block;
 }
 .col-2{
 	/*background-color:#e2768e;*/
-	width:70%;
+	width:60%;
 	float:right;
 	display:inline-block;
 }
