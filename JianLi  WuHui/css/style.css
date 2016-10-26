@@ -714,4 +714,8 @@ nav#footer p {
 #row{
 	margin: 0 auto;
 }
-
+small{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
