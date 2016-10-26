@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="误会" />
+  <title>列表页</title>
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/list.css">
+</head>
+
+<body>
+  <div class="container" id="content"></div>
+  <a href="add.html">新&nbsp&nbsp&nbsp&nbsp增</a>
+  <a href="delect.html">删&nbsp&nbsp&nbsp&nbsp除</a>
+  <section>
+    <input type="text" id="chaxun" placeholder="请输入你要查询的名字">
+    <span id="chaanniu">查询</span>
+    <span id="quanbu">显示全部</span>
+  </section>
+  <a href="add.html">修&nbsp&nbsp&nbsp&nbsp改</a>
+  <script id="table" type="text/html">
+    <h1>{{title}}</h1>
+      <table class="table">
+        <tr>
+          <th>性别</th>
+          <th>姓名</th>
+          <th>年龄</th>
+          <th>爱好</th>
+          <th>语言</th>
+        </tr>
+        {{each list as value i}}
+        <tr>
+          <td>{{value.sex}}</td>
+          <td>{{value.name}}</td>
+          <td>{{value.age}}</td>
+          <td>{{value.hobby}}</td>
+          <td>{{value.lines}}</td>
+        </tr>
+        {{/each}}
+      </table>
+    </script>
+  <script src="lib/template.js"></script>
+  <script src="js/list.js"></script>
+</body>
+
+<html>
