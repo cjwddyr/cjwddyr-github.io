@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 50px;
+}
+body{
+    color: #333;
+}
+header{
+    width: 100%;
+    height: .84rem;
+    background-color: #f2f2f2;
+}
+.biaoti{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.title{
+    line-height: 6vh;
+    text-align: center;
+    font-weight: normal;
+    font-size: .3rem;
+}
+footer{
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    z-index: 10000;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+}
+footer>a{
+    width: 25vw;
+    height: 100%;
+    /*background-color: yellow;*/
+    float: left;
+    display: inline-block;
+    text-decoration: none;
+    color: #9c9c9c;
+}
+footer p{
+    font-size: 2vh;
+    /*background-color: yellow;*/
+    text-align: center;
+    line-height: 8vh;
+}
+.section{
+    background-color: #ffffff;
+    margin: .2rem .2rem 0;
+    overflow: hidden;
+    border-bottom: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+}
+.hfour {
+    font-size: .3rem;
+    text-align: center;
+    margin: .5rem 0 .6rem;
+    font-weight: 400;
+}
+.ol{
+    overflow: hidden;
+    margin: 0 .25rem;
+    list-style: none;
+}
+.ol, .xiaoli{
+    list-style: none;
+}
+.xiaoli{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-bottom: .4rem;
+    height: 2rem;
+    overflow: hidden;
+}
+.xiaoli, .img{
+    vertical-align: middle;
+}
+.img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    transform-origin: 0px 0px 0px;
+    opacity: 1;
+    transform: scale(1, 1);
+    border: 0;
+}
+.name{
+    font-size: .22rem;
+    color: #333;
+    margin-top: .28rem;
+    white-space: nowrap;
+}
