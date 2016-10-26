@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    /*font-size: 50px;*/
+}
+body{
+    /*font-size: .2rem;*/
+    color: #333;
+}
+#txt{
+    display: inline-block;
+    height: 8vw;
+    width: 96%;
+    margin: 2vh 2%;
+    font-size: 4vw;
+    padding-left: 4%
+    
+}
+.section>div{
+    padding: .3rem 0;
+    border-bottom: 1px solid #f2f2f2;
+    /*background-color: blue;*/
+    /*float: left;*/
+}
+.left{
+    width: 25%;
+    /*background-color: yellow;*/
+    height: 20vw;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2vh;
+}
+.right{
+    display: inline-block;
+    width: 66%;
+    height: 20vw;
+    margin-right: .2rem;
+    /*background-color: red;*/
+}
+img{
+    transform-origin: 0px 0px 0px;
+    opacity: 1;
+    transform: scale(1,1);
+    width: 100%;
+    /*height: 100%;*/
+    border: 0;
+    /*vertical-align: middle;*/
+}
+.title{
+    font-size: 4vw;
+    color: #000;
+    margin-bottom: .1rem;
+}
+.neirong{
+    font-size: 3vw;
+    line-height: 4vw;
+    color: #969696;
+    margin-bottom: .12rem;
+}
+.price{
+    font-size: 3.5vw;
+    color: #fe4900;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
